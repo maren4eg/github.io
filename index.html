@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="script.js" defer></script>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<div id="counter">
+		<form name="calculator" id="calc">
+			<input type="text" id="res" name="result" />
+			<br/>
+			<input type="button" class="keys" value="7" onclick="calculator.result.value += '7'"/>
+			<input type="button" class="keys" value="8" onclick="calculator.result.value += '8'"/>
+			<input type="button" class="keys" value="9" onclick="calculator.result.value += '9'"/>
+			<input type="button" class="keys" value="+" onclick="calculator.result.value += '+'"/>
+			<br/>
+
+			<input type="button" class="keys" value="4" onclick="calculator.result.value += '4'"/>
+			<input type="button" class="keys" value="5" onclick="calculator.result.value += '5'"/>
+			<input type="button" class="keys" value="6" onclick="calculator.result.value += '6'"/>
+			<input type="button" class="keys" value="-" onclick="calculator.result.value += '-'"/>
+			<br/>
+
+			<input type="button" class="keys" value="1" onclick="calculator.result.value += '1'"/>
+			<input type="button" class="keys" value="2" onclick="calculator.result.value += '2'"/>
+			<input type="button" class="keys" value="3" onclick="calculator.result.value += '3'"/>
+			<input type="button" class="keys" value="*" onclick="calculator.result.value += '*'"/>
+			<br/>
+
+			<input type="button" class="keys" value="." onclick="calculator.result.value += '.'"/>
+			<input type="button" class="keys" value="0" onclick="calculator.result.value += '0'"/>
+			<input type="button" class="keys" value="=" onclick="calculator.result.value = eval(calculator.result.value)"/>
+			<input type="button" class="keys" value="/" onclick="calculator.result.value += '/'"/>
+		</form>
+	</div>
+</body>
+</html>

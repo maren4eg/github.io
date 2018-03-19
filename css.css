@@ -1,0 +1,15 @@
+.keys{
+	height: 40px;
+	width: 40px;
+}
+
+#calc{
+	position: relative;
+	border: 2px, solid, black;
+}
+
+
+#res{
+	background-color: green;
+	height: 40px;
+}
